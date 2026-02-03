@@ -1,16 +1,115 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
-</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Architecture Floor Plans</title>
+    <style>
+        body {
+            background-color: #d1d6c8; /* Matches the sage/grey background of the image */
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+        }
 
+        .container {
+            width: 1100px;
+        }
+
+        .imageContainer {
+            width: 1100px;
+            margin-bottom: 20px;
+        }
+
+        .imageContainer img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid #777;
+            background-color: #ccd2c4;
+        }
+
+        td {
+            border: 1px solid #777;
+            padding: 15px;
+            vertical-align: top;
+            text-align: center;
+        }
+
+        .content-cell {
+            text-align: left;
+            line-height: 1.4;
+        }
+
+        .header-text {
+            font-size: 1.1em;
+            text-align: center;
+        }
+
+        .link-text {
+            color: purple;
+            text-decoration: underline;
+            font-size: 0.9em;
+        }
+
+        img.table-img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+<div class="container">
+    <div class="imageContainer">
+        <img src="https://static.wixstatic.com/media/abd831_cd8669743a694c448bb996c398747d56~mv2.jpg/v1/fill/w_480,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/abd831_cd8669743a694c448bb996c398747d56~mv2.jpg" alt="Architectural Sketching">
+    </div>
+
+    <table>
+        <tr>
+            <td width="200">
+                <img src="https://static.wixstatic.com/media/abd831_cd8669743a694c448bb996c398747d56~mv2.jpg/v1/fill/w_480,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/abd831_cd8669743a694c448bb996c398747d56~mv2.jpg" class="table-img" alt="Abstract Architecture">
+            </td>
+            <td width="600" class="header-text">
+                <strong>Unit #5 - Floor Plans</strong><br>
+                A. Kitchen<br>
+                B. Bathroom<br>
+                C. Using "Slabs"<br>
+                D. Georgian Home<br>
+                E. Sketching Assignment #5
+            </td>
+            <td width="200">
+                <img src="https://static.wixstatic.com/media/abd831_cd8669743a694c448bb996c398747d56~mv2.jpg/v1/fill/w_480,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/abd831_cd8669743a694c448bb996c398747d56~mv2.jpg" class="table-img" alt="Spiral Staircase">
+            </td>
+        </tr>
+
+        <tr>
+            <td width="200" class="content-cell">
+                <img src="https://static.wixstatic.com/media/abd831_cd8669743a694c448bb996c398747d56~mv2.jpg/v1/fill/w_480,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/abd831_cd8669743a694c448bb996c398747d56~mv2.jpg" class="table-img" alt="Spiral Staircase">
+                <p><strong>HousePlans.com</strong> The largest source for quality affordable ready-made house plans. A great place to surf for space planning ideas.</p>
+                <span class="link-text">learn more</span>
+            </td>
+            <td width="600" class="content-cell">
+                <h3 style="text-align: center;">Objective</h3>
+                <p>Discuss factors that are important in the design of bedrooms. Plan the size and location of closets for a typical residence. Plan a furniture arrangement for a room. Implement important design considerations for bathrooms. Plan a bathroom that follows solid design principles. Plan the service area of a home by applying good design principles. Design a functional kitchen to meet a family's needs Select kitchen appliances that are appropriate for a design. Plan an efficient clothes care center. Describe appropriate dimensions for garage space. Identify the rooms and areas that comprise the living area Apply design principles to planning a living room Integrate the furniture in a living room plan Analyze a dining room using good design principles. Design a functional entry and foyer.</p>
+            </td>
+            <td width="200" class="content-cell">
+                <img src="https://static.wixstatic.com/media/abd831_cd8669743a694c448bb996c398747d56~mv2.jpg/v1/fill/w_480,h_320,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/abd831_cd8669743a694c448bb996c398747d56~mv2.jpg" class="table-img" alt="Spiral Staircase">
+                <p><strong>Green Floor</strong><br>
+                FreeGreen.com offers both sponsored and non-sponsored floor plans. Their goal is to provide consumers with free solutions to their green architectural needs.</p>
+                <span class="link-text">learn more</span>
+            </td>
+        </tr>
+    </table>
+</div>
 
 </body>
-
 </html>
